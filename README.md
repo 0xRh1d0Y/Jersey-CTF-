@@ -20,7 +20,6 @@ Write-up for Jersey CTF challenges.
 
 ### Explanation:
 
-```
 After reading the description i realised its a dns realted problem!
 So, Let's go to the site viewdns and search for dns record lookup 
 with the domain name that provided in the description.Then i check
@@ -28,8 +27,6 @@ the result and yes i found the flag.
 
 **Here is the [link](https://viewdns.info/dnsrecord/?domain=jerseyctf.com) of viewdns result.
 
-
-```
 
 ### Summary:
 Flag: "jctf{DNS_J0k3s_t@k3_24_hrs}"
