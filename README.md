@@ -41,12 +41,15 @@ Flag: "jctf{DNS_J0k3s_t@k3_24_hrs}"
 
 ![image](https://user-images.githubusercontent.com/79222856/162636706-e9e82f13-b581-492f-af55-8ba2c55cff54.png)
 
-### Problem Hint:
-![image](https://user-images.githubusercontent.com/79222856/162636736-3a2b1aac-e7b7-4f9d-a86b-a4580e3e008a.png)
 
 ### Problem Description:
 
 ![image](https://user-images.githubusercontent.com/79222856/162636567-40fa77cc-7f04-4cee-8219-497f9058d193.png)
+
+
+### Problem Hint:
+
+![image](https://user-images.githubusercontent.com/79222856/162636736-3a2b1aac-e7b7-4f9d-a86b-a4580e3e008a.png)
 
 ### Solution:
 
