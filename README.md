@@ -26,7 +26,7 @@ So, Let's go to the site viewdns and search for dns record lookup
 with the domain name that provided in the description.Then i check
 the result and yes i found the flag.
 
-**Here is the [link](https://viewdns.info/) of viewdns.
+**Here is the [link](https://viewdns.info/dnsrecord/?domain=jerseyctf.com) of viewdns result.
 
 
 ```
