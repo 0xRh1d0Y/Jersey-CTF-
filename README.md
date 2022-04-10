@@ -72,13 +72,20 @@ Reverse Image Search:
 
 ### Explanation:
 
+Step 1: Reverse Image Search
+
 First of all, I tried reverse image search and found the address 132 Minor Ave N !
 I thought that i found the address of that image and tried it  like jctf{Minor-Ave-N}
 but it was wrong!.Then one of my teammate said that it can be solve by what3word website !
 Ah snap! he was right.After searching with the address,
 Finaly we got the right flag that the place adress repesent by three word.
 
+Step 2: what3word 
+
+Then in the what3word site search with the address 132 Minor Ave N .Then i found the name of the picture  Public Art "TransForest" in the map!.Then clicked the location of the picture of the name and found three word  that represent the  location .
+
 ***Here the [Link](https://what3words.com/unwanted.debate.wake) of the what3word site result.
+
 ### Summary:
 
 Flag : "jctf{unwanteddebatewake}"
