@@ -8,7 +8,6 @@ Write-up for Jersey CTF challenges.
 - - [:triangular_flag_on_post: Photo-op-spot](#triangular_flag_on_post-photo-op-spot)
 - [:triangular_flag_on_post: Web](#triangular_flag_on_post-web)
 - - [:triangular_flag_on_post: Heres-my-password](#triangular_flag_on_post-heres-my-password)
-
 ## :triangular_flag_on_post: Osint
 
 ## :triangular_flag_on_post: Dnsjoke
@@ -112,7 +111,7 @@ Flag : "jctf{unwanteddebatewake}"
 
 ![image](https://user-images.githubusercontent.com/79222856/162687568-c6fc8917-ae28-4e07-846d-8bed38ba841a.png)
 
-### Solution && Explanation:
+### Solution && Explanation: PASSWORD SPRAY ATTACK
 
 From the description we understand that we need to bruteforce the a login page.
 And they provide us a users.txt file which contains 500 username and they also give
@@ -175,6 +174,3 @@ Flag:- jctf{c0NGR@T2_y0U_p@22wORd_SPR@y3D!}
 
 ```
 
-    
-    
-    
