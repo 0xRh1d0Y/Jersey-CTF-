@@ -4,9 +4,14 @@ Write-up for Jersey CTF challenges.
 ## :clipboard: Table of Contents
 
 - [:triangular_flag_on_post: Osint](#triangular_flag_on_post-osint)
+- - [:triangular_flag_on_post: Dnsjoke](#triangular_flag_on_post-dnsjoke)
+- - [:triangular_flag_on_post: Photo-op-spot](#triangular_flag_on_post-photo-op-spot)
 - [:triangular_flag_on_post: Web](#triangular_flag_on_post-web)
+- - [:triangular_flag_on_post: Heres-my-password](#triangular_flag_on_post-heres-my-password)
 
 ## :triangular_flag_on_post: Osint
+
+## :triangular_flag_on_post: Dnsjoke
 
 ### 1.Problem's Name :***Dnsjoke***
 
@@ -34,7 +39,7 @@ Flag: "jctf{DNS_J0k3s_t@k3_24_hrs}"
 
 
 
-
+## :triangular_flag_on_post: Photo-op-spot
 
 ### 2. Problem's Name :***photo-op-spot***
 
@@ -95,7 +100,9 @@ Flag : "jctf{unwanteddebatewake}"
 
 ## :triangular_flag_on_post: Web
 
-### Problem's Name :***heres-my-password***
+## :triangular_flag_on_post: Heres-my-password
+
+### 3.Problem's Name :***heres-my-password***
 
 ### Problem Description:
 
