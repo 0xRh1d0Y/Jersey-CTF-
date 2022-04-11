@@ -4,7 +4,8 @@ Write-up for Jersey CTF challenges.
 ## :clipboard: Table of Contents
 
 - [:triangular_flag_on_post: Osint](#triangular_flag_on_post-osint)
-- 
+- [:triangular_flag_on_post: Web](#triangular_flag_on_post-web)
+
 ## :triangular_flag_on_post: Osint
 
 ### 1.Problem's Name :***Dnsjoke***
@@ -90,3 +91,83 @@ Then in the what3word site search with the address 132 Minor Ave N .Then i found
 
 Flag : "jctf{unwanteddebatewake}"
 
+
+
+## :triangular_flag_on_post: Web
+
+### Problem's Name :***heres-my-password***
+
+### Problem Description:
+
+![image](https://user-images.githubusercontent.com/79222856/162687398-640eaa29-f560-4f59-9119-bf9de8730148.png)
+
+### Problem Hint:
+
+![image](https://user-images.githubusercontent.com/79222856/162687568-c6fc8917-ae28-4e07-846d-8bed38ba841a.png)
+
+### Solution && Explanation:
+
+From the description we understand that we need to bruteforce the a login page.
+And they provide us a users.txt file which contains 500 username and they also give
+only one password. We need to bruteforce 500 usernames with just one password and 
+have to find right user!.For this  bruteforce attack I start my  burpsuite!
+
+    Step 1: First intercept the request.
+
+![image](https://user-images.githubusercontent.com/79222856/162688531-a1c71c90-dace-4823-961b-ca50d5049a49.png)
+
+![image](https://user-images.githubusercontent.com/79222856/162689023-4810bff5-a869-42e6-997b-8e7d1dd06d30.png)
+
+    Step 2: Send the request to intruder.
+
+![image](https://user-images.githubusercontent.com/79222856/162689212-d1adf008-aa0b-48a3-abac-e5b45a2f5145.png)
+
+    Step 3:
+     
+    Then go to the position tab and click on the Clear button.
+    This will clear default selection.After clearing default
+    selection select only username and click on the Add button 
+    to bruteforce. This will select only username .And select
+    the Attack type to Sniper.
+    
+<br>
+    
+    Step 4: Go to the Payload tab.
+    
+![image](https://user-images.githubusercontent.com/79222856/162690687-f5e472c5-bb6c-4468-bce8-0d630071b25e.png)
+
+
+    Step 5:
+    
+    You will see that the sniper attack type have only one 
+    paylode set/payload type. Load the payload type of  
+    simple list with the 500 usernames. To do that click 
+    the Load button and find the users.txt file. After 
+    that click on Start Attack to start the bruteforce attack.
+    
+![image](https://user-images.githubusercontent.com/79222856/162691504-90f45fbe-8c8a-4f03-bf54-f6aeeb8cdb4c.png)
+
+
+    Step 6:
+    
+    See there is a lot of response with same status code.
+    So how do we know the correct response? By simply 
+    clicking on the Length button twice you will see 
+    the different length 798.Here the username Wolverine.
+    Now let’s see the full  response of that request. 
+    You can see the flag.
+    
+![image](https://user-images.githubusercontent.com/79222856/162691890-49d20671-880b-424f-b458-1560afff9447.png)
+
+![image](https://user-images.githubusercontent.com/79222856/162692625-045ee0f4-1f27-437a-848b-6e6c0128177d.png)
+
+
+### Summary:
+```
+Flag:- jctf{c0NGR@T2_y0U_p@22wORd_SPR@y3D!}
+
+```
+
+    
+    
+    
